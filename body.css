@@ -1,0 +1,13 @@
+body { 
+  font: 18px "Century Gothic", Futura, sans-serif;
+  margin: 20px;
+}
+
+.FancyBorder {
+  padding: 10px 5px;
+  border: 1px solid;
+}
+
+.FancyBorder-black {
+  border-color: black;
+}
