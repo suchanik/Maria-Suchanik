@@ -20,7 +20,7 @@ function FancyBorder(props) {
       const { name, surname, birth, number } = this.state;
       return (
         
-        <div className="example">
+        <div className="formularz">
           <div style={{ height: 40 }}>
             <h1> Formularz: </h1>
           </div>
@@ -42,7 +42,7 @@ function FancyBorder(props) {
            <FancyBorder color="black">
               Dane:
              
-          <div className="formularz"> </div>
+          <div className="dane"> </div>
             <div>{ name }</div>
             <div>{ surname }</div>
             <div>{ birth }</div>
